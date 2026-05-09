@@ -14,8 +14,8 @@
 
 .brand {
   font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--text-h);
+  font-weight: 900;
+  color: #000000;
 }
 
 .nav-links {
@@ -26,9 +26,10 @@
 
 .nav-links a {
   text-decoration: none;
-  color: var(--text);
-  font-weight: 500;
+  color: #000000;
+  font-weight: 700;
 }
+
 
 .primary-btn,
 .secondary-btn {
@@ -50,9 +51,10 @@
 }
 
 .secondary-btn {
-  color: var(--text-h);
+  color: #000000;
   background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(236, 236, 241, 0.95);
+  border: 2px solid #000000;
+  font-weight: 800;
 }
 
 .primary-btn:hover,
@@ -78,10 +80,11 @@
   justify-content: center;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(91, 107, 255, 0.12);
-  color: #353547;
+  background: rgba(124, 58, 237, 0.12);
+  color: #000000;
   font-size: 0.9rem;
   margin-bottom: 18px;
+  font-weight: 800;
 }
 
 .hero-copy h1 {
@@ -89,14 +92,17 @@
   font-size: clamp(2.75rem, 5vw, 4.75rem);
   line-height: 0.98;
   letter-spacing: -1.5px;
+  color: #000000;
+  font-weight: 900;
 }
 
 .hero-copy p {
   margin: 0 0 32px;
   max-width: 540px;
-  color: var(--text);
+  color: #000000;
   font-size: 1.05rem;
   line-height: 1.8;
+  font-weight: 700;
 }
 
 .hero-actions {
@@ -114,19 +120,22 @@
 
 .hero-stat {
   min-width: 140px;
-  background: rgba(143, 121, 255, 0.12);
+  background: rgba(124, 58, 237, 0.08);
   border-radius: 24px;
   padding: 20px 18px;
+  border: 1px solid rgba(124, 58, 237, 0.2);
 }
 
 .hero-stat strong {
   display: block;
   font-size: 1.3rem;
-  color: var(--text-h);
+  color: #000000;
+  font-weight: 800;
 }
 
 .hero-stat span {
-  color: var(--text);
+  color: #000000;
+  font-weight: 700;
 }
 
 .hero-visual {
@@ -136,7 +145,7 @@
 .hero-visual-frame {
   position: absolute;
   inset: 0;
-  background: rgba(91, 107, 255, 0.08);
+  background: rgba(124, 58, 237, 0.06);
   border-radius: 48px;
   transform: translateX(18px);
 }
@@ -145,8 +154,8 @@
   position: relative;
   overflow: hidden;
   border-radius: 40px;
-  background: linear-gradient(180deg, #ffffff 0%, #f8f8ff 100%);
-  box-shadow: 0 40px 100px rgba(38, 55, 126, 0.14);
+  background: #ffffff;
+  box-shadow: 0 40px 100px rgba(124, 58, 237, 0.1);
   padding: 28px;
 }
 
@@ -159,8 +168,8 @@
   border-radius: 20px;
   border: 1px solid rgba(128, 111, 255, 0.2);
   background: #fff;
-  color: #4f46e5;
-  font-weight: 700;
+  color: #000000;
+  font-weight: 800;
   margin-bottom: 22px;
 }
 
@@ -171,8 +180,8 @@
 .hero-card-badge small {
   display: block;
   font-size: 0.75rem;
-  font-weight: 400;
-  color: #7c3aed;
+  font-weight: 800;
+  color: #000000;
 }
 
 .hero-card-image img {
@@ -190,17 +199,18 @@
 
 .hero-card-info p {
   margin: 0;
-  color: var(--text);
+  color: #000000;
   line-height: 1.75;
+  font-weight: 700;
 }
 
 .hero-card-pill {
   width: fit-content;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(91, 107, 255, 0.12);
-  color: #4f46e5;
-  font-weight: 700;
+  background: rgba(124, 58, 237, 0.12);
+  color: #000000;
+  font-weight: 800;
 }
 
 .section {
@@ -216,14 +226,16 @@
 
 .section-heading span {
   display: inline-flex;
-  color: #6f67ff;
-  font-weight: 700;
+  color: #000000;
+  font-weight: 900;
 }
 
 .section-heading h2 {
   margin: 0;
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.05;
+  color: #000000;
+  font-weight: 900;
 }
 
 .service-grid {
@@ -235,9 +247,9 @@
 .service-card {
   padding: 28px;
   border-radius: 28px;
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid rgba(229, 229, 234, 0.9);
-  box-shadow: 0 20px 50px rgba(63, 64, 84, 0.08);
+  background: #ffffff;
+  border: 1px solid rgba(124, 58, 237, 0.15);
+  box-shadow: 0 20px 50px rgba(124, 58, 237, 0.08);
 }
 
 .service-icon {
@@ -259,16 +271,19 @@
 .service-card h3 {
   margin: 0 0 12px;
   font-size: 1.2rem;
+  color: #000000;
+  font-weight: 900;
 }
 
 .service-card p {
   margin: 0;
-  color: var(--text);
+  color: #000000;
   line-height: 1.75;
+  font-weight: 700;
 }
 
 .about {
-  background: rgba(97, 79, 248, 0.06);
+  background: rgba(124, 58, 237, 0.04);
   border-radius: 36px;
 }
 
@@ -313,12 +328,15 @@
 .about-copy h2 {
   margin: 0 0 22px;
   font-size: clamp(2rem, 3vw, 3.2rem);
+  color: #000000;
+  font-weight: 900;
 }
 
 .about-copy p {
-  color: var(--text);
+  color: #000000;
   line-height: 1.8;
   margin-bottom: 28px;
+  font-weight: 700;
 }
 
 .pricing-grid {
@@ -339,22 +357,23 @@
 }
 
 .pricing-card.featured {
-  border-color: rgba(91, 107, 255, 0.25);
-  background: linear-gradient(180deg, #f9f8ff 0%, #ffffff 100%);
+  border-color: rgba(124, 58, 237, 0.3);
+  background: #ffffff;
 }
 
 .plan-name {
   margin: 0;
-  font-weight: 700;
-  color: #6d28d9;
+  font-weight: 800;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  font-size: 0.75rem;
 }
 
 .price {
   font-size: 2.75rem;
   margin: 0;
-  color: var(--text-h);
+  color: #000000;
 }
 
 .pricing-card ul {
@@ -366,7 +385,8 @@
 }
 
 .pricing-card li {
-  color: var(--text);
+  color: #000000;
+  font-weight: 700;
 }
 
 .testimonial {
@@ -397,7 +417,7 @@
 .testimonial-content {
   padding: 36px 28px;
   border-radius: 32px;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0 30px 70px rgba(33, 35, 68, 0.08);
 }
 
@@ -409,7 +429,8 @@
   margin: 0 0 28px;
   font-size: 1.15rem;
   line-height: 1.9;
-  color: var(--text-h);
+  color: #000000;
+  font-weight: 900;
 }
 
 .testimonial-author {
@@ -432,11 +453,13 @@
 
 .testimonial-author strong {
   display: block;
-  color: var(--text-h);
+  color: #000000;
+  font-weight: 900;
 }
 
 .testimonial-author span {
-  color: var(--text);
+  color: #000000;
+  font-weight: 700;
 }
 
 .newsletter-card {
@@ -444,8 +467,8 @@
   margin: 0 auto;
   padding: 40px 42px;
   border-radius: 32px;
-  background: linear-gradient(180deg, #ffffff 0%, #f8f8ff 100%);
-  border: 1px solid rgba(229, 229, 234, 0.95);
+  background: #ffffff;
+  border: 1px solid rgba(124, 58, 237, 0.2);
   box-shadow: 0 30px 70px rgba(51, 56, 103, 0.08);
   text-align: center;
 }
@@ -453,12 +476,15 @@
 .newsletter-card h2 {
   margin: 0 0 14px;
   font-size: clamp(2rem, 3vw, 2.6rem);
+  color: #000000;
+  font-weight: 900;
 }
 
 .newsletter-card p {
   margin: 0 0 28px;
-  color: var(--text);
+  color: #000000;
   line-height: 1.75;
+  font-weight: 800;
 }
 
 .newsletter-form {
@@ -473,9 +499,18 @@
   min-width: 220px;
   padding: 16px 18px;
   border-radius: 999px;
-  border: 1px solid rgba(229, 229, 234, 0.95);
+  border: 2px solid #333333;
   outline: none;
   font-size: 1rem;
+  color: #000000;
+  font-weight: 800;
+  background: #ffffff;
+}
+
+.newsletter-form input::placeholder {
+  color: #000000;
+  font-weight: 800;
+  opacity: 1;
 }
 
 .newsletter-form input:focus {
@@ -495,8 +530,8 @@
 }
 
 .footer-brand {
-  font-weight: 700;
-  color: var(--text-h);
+  font-weight: 900;
+  color: #000000;
 }
 
 .footer-links {
@@ -506,54 +541,128 @@
 }
 
 .footer-links a {
-  color: var(--text);
+  color: #000000;
   text-decoration: none;
   font-size: 0.95rem;
+  font-weight: 700;
 }
 
 .footer-copy {
-  color: var(--text);
+  color: #000000;
+  font-weight: 700;
 }
 
+/* Tablet: 960px and below */
 @media (max-width: 960px) {
-  .hero-panel,
-  .pricing-grid,
-  .service-grid,
-  .about-grid,
+  .page-shell {
+    padding: 20px 18px 36px;
+  }
+
+  .hero-panel {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 0 20px;
+  }
+
+  .hero-visual-frame {
+    transform: translateX(0);
+  }
+
+  .pricing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
   .testimonial-block {
     grid-template-columns: 1fr;
+  }
+
+  .testimonial-image img {
+    min-height: 300px;
   }
 
   .topbar {
     flex-direction: column;
     align-items: flex-start;
+    gap: 12px;
   }
 
   .nav-links {
-    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
   }
-}
 
-@media (max-width: 680px) {
-  .page-shell {
-    padding: 18px 16px 30px;
+  .nav-links a {
+    padding: 8px 0;
+  }
+
+  .section-heading h2 {
+    font-size: 2rem;
   }
 
   .hero-copy h1 {
-    font-size: 2.6rem;
+    font-size: clamp(2rem, 4vw, 3.5rem);
   }
 
-  .hero-actions {
-    flex-direction: column;
-    align-items: stretch;
+  .about-copy h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile: 768px and below */
+@media (max-width: 768px) {
+  .page-shell {
+    padding: 16px 14px 28px;
   }
 
-  .hero-card {
+  .section {
+    padding: 36px 0;
+  }
+
+  .brand {
+    font-size: 1rem;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card {
     padding: 24px;
+    gap: 18px;
   }
 
-  .hero-card-badge {
-    width: auto;
+  .price {
+    font-size: 2.2rem;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-stat {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .newsletter-card {
+    padding: 32px 24px;
+  }
+
+  .newsletter-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
   }
 
   .newsletter-form {
@@ -562,5 +671,240 @@
 
   .newsletter-form input {
     width: 100%;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    margin-top: 32px;
+  }
+
+  .footer-links {
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-brand {
+    width: 100%;
+  }
+}
+
+/* Mobile: 640px and below */
+@media (max-width: 640px) {
+  .page-shell {
+    padding: 14px 12px 24px;
+    max-width: 100%;
+  }
+
+  .topbar {
+    padding: 12px 0;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(1.75rem, 5vw, 2.8rem);
+    margin-bottom: 16px;
+  }
+
+  .hero-copy p {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    width: 100%;
+  }
+
+  .hero-card {
+    padding: 20px;
+  }
+
+  .hero-card-badge {
+    width: auto;
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+
+  .hero-card-badge span {
+    font-size: 0.85rem;
+  }
+
+  .hero-card-badge small {
+    font-size: 0.65rem;
+  }
+
+  .eyebrow {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    margin-bottom: 14px;
+  }
+
+  .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
+  }
+
+  .section-heading span {
+    font-size: 0.8rem;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .service-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 14px;
+  }
+
+  .service-card h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .about-tag {
+    padding: 10px 14px;
+    font-size: 0.75rem;
+    top: 12px;
+    left: 12px;
+  }
+
+  .about-copy h2 {
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
+  }
+
+  .about-copy p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .plan-name {
+    font-size: 0.75rem;
+  }
+
+  .price {
+    font-size: 1.8rem;
+  }
+
+  .pricing-card ul {
+    gap: 8px;
+  }
+
+  .pricing-card li {
+    font-size: 0.9rem;
+  }
+
+  .testimonial-content {
+    padding: 24px 20px;
+  }
+
+  .quote {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.7;
+  }
+
+  .avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    font-size: 1rem;
+  }
+
+  .testimonial-author {
+    gap: 14px;
+  }
+
+  .testimonial-author strong {
+    font-size: 0.95rem;
+  }
+
+  .testimonial-author span {
+    font-size: 0.85rem;
+  }
+
+  .newsletter-card {
+    padding: 24px 18px;
+    border-radius: 24px;
+  }
+
+  .newsletter-card h2 {
+    font-size: clamp(1.3rem, 4vw, 1.6rem);
+  }
+
+  .newsletter-card p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-form input {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  .footer-links a {
+    font-size: 0.85rem;
+  }
+
+  .footer-copy {
+    font-size: 0.85rem;
+  }
+}
+
+/* Small Mobile: 480px and below */
+@media (max-width: 480px) {
+  .page-shell {
+    padding: 12px 10px 20px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .hero-card {
+    padding: 16px;
+  }
+
+  .section-heading h2 {
+    font-size: 1.4rem;
+  }
+
+  .about-copy h2 {
+    font-size: 1.4rem;
+  }
+
+  .newsletter-card {
+    padding: 20px 16px;
+  }
+
+  .newsletter-card h2 {
+    font-size: 1.3rem;
   }
 }
